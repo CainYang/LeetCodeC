@@ -12,4 +12,4 @@ int reverse(int x) {
     if(result < INT_MIN || result > INT_MAX)
         return 0;
     return flag == 1?-result:result;
-}
+} 
