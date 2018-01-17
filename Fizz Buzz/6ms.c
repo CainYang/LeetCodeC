@@ -3,7 +3,7 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 char** fizzBuzz(int n, int* returnSize) {
-    char** pString=(char**)malloc(sizeof(char*)*10000);
+    char** pString=(char**)malloc(sizeof(char*)*n);
     int i;
     for(i=1;i<=n;i++)
     {
